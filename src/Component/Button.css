@@ -1,0 +1,77 @@
+.button{
+  border: 1px solid;
+/*  box-shadow: 1px 1px 3px #323131;/*gray;*/
+  margin : 0px;
+  outline: none;
+  border-radius: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF1FF;
+  box-shadow: 1px 1px 3px #4A4A4A;
+}
+
+.bt
+{
+  grid-column: span 2;
+}
+
+.button:hover{
+  cursor: pointer;
+}
+
+.numberL
+{
+  border-color: #E6CFFD;
+  color: #231233;
+  background-color: #E6CFFD;
+}
+.operatorL{
+  border-color: #521785;
+  background-color: #521785;
+}
+.editL{
+  border-color:  #BF78FF;
+  background-color:  #BF78FF;
+}
+.numberL:hover,.operatorL:hover,.editL:hover
+{
+    box-shadow: 1px 1px 5px black;
+}
+.pourL
+{
+  border-color:   #BF78FF;
+  background-color:  #BF78FF;
+}
+.resultL{
+  border:#E6CFFD;
+  background-color: #220141;
+}
+
+.numberD
+{
+  border-color: #F2789C;
+  color: #231233;
+  background-color: #F2789C;
+}
+.operatorD{
+  border-color: #CC064A;
+  background-color: #CC064A;
+}
+.editD{
+  border-color:  #D74185;
+  background-color:  #D74185;
+}
+.pourD
+{
+  border-color:  #D74185;
+  background-color:  #D74185;
+}
+.resultD{
+  border: #670023;
+  background-color: #86002E;
+}
+.numberD:hover,.operatorD:hover,.editD:hover
+{
+  box-shadow: 1px 1px 5px white;
+}

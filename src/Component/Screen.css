@@ -1,0 +1,30 @@
+.screen
+{
+  width: 100%;
+  height:66px;
+  margin-bottom: 0px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.screenL
+{
+  background-color:#FBF5FF;
+  color: #231233;
+  border-bottom: 4px solid #220141;
+}
+.screenD
+{
+  background-color:black;
+  color: #F2709C;
+  border-bottom: 4px solid #F2789C;
+}
+.onScreen
+{
+  overflow-x: auto;
+  overflow-y:hidden;
+  white-space: nowrap;
+}
